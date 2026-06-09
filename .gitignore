@@ -1,0 +1,31 @@
+# ── Large data files ──────────────────────────────────────────────────────
+data/train.csv
+data/raw/*.csv
+data/raw/*.las
+data/raw/*.LAS
+
+# ── Generated outputs (reproducible from notebooks) ───────────────────────
+outputs/data/*.csv
+outputs/data/*.npy
+outputs/data/*.pkl
+outputs/data/*.json
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ── Environments ──────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.conda/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS / IDE ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
